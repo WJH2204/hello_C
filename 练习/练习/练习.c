@@ -17,7 +17,7 @@
 //	return 0;
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
 
 //int main()
 //{
@@ -102,10 +102,53 @@
 //    return 0;
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
+//
+//int main()
+//{
+//    printf("\n%d", printf("Hello world!"));
+//    return 0;
+//}
 
+//#include <stdio.h>
+//
+//int main()
+//{
+//    int arr[4];
+//    scanf("%d %d %d %d", &arr[0], &arr[1], &arr[2], &arr[3]);
+//    for (int i = 0; i < 3; i++)
+//    {
+//        int temp = arr[0];
+//        if (arr[i] > arr[i + 1])
+//        {
+//            arr[i] = arr[i + 1]£»
+//                arr[i + 1] = temp;
+//        }
+//    }
+//    printf("%d", arr[3]);
+//    return 0;
+//}
+
+//#include <stdio.h>
+//#define PI 3.1415926
+//int main()
+//{
+//    float r = 0.0;
+//    scanf("%f", &r);
+//    float V = 4 / 3 * PI * r ^ 3;
+//    printf("%03f", V);
+//    return 0;
+//}
+
+#include <stdio.h>
+#include <math.h>
 int main()
 {
-    printf("\n%d", printf("Hello world!"));
+    float weight = 0.0, height = 0.0;
+    scanf("%f %f", &weight, &height);
+    float s = pow(height / 100, 2);
+    printf("%f", s);
+
+    printf("%0.2f", weight / pow(height/100, 2));
     return 0;
 }
