@@ -1,2 +1,3 @@
-﻿  非递归实现求第n个斐波那契数.c
+﻿  递归实现n的k次方.c
+C:\Users\15801\Desktop\hello_C\作业\0422\0422\递归实现n的k次方.c(16,14): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
   0422.vcxproj -> C:\Users\15801\Desktop\hello_C\作业\0422\x64\Debug\0422.exe

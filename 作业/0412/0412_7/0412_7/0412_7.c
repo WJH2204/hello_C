@@ -2,55 +2,33 @@
 
 #include <stdio.h>
 
+void swap(int* px, int* py);
+
 int main()
 {
 	int a = 0;
 	int b = 0;
 	int c = 0;
-	int min = 0;
-	int mid = 0;
-	int max = 0;
 	scanf("%d %d %d", &a, &b, &c);
-	if (a < b && a < c)
+	if (a < b)
 	{
-		min = a;
-		if (b < c)
-		{
-			mid = b;
-			max = c;
-		}
-		else
-		{
-			mid = c;
-			max = b;
-		}
+		swap(&a, &b);
 	}
-	else if (a < b && a > c)
+	if (a < c)
 	{
-		mid = a;
-		min = c;
-		max = b;
+		swap(&a, &c);
 	}
-	else if (a > b && a < c)
+	if ( b < c)
 	{
-		mid = a;
-		min = b;
-		max = c;
+		swap(&b, &c);
 	}
-	else if (a > b && a > c)
-	{
-		max = a;
-		if (b < c)
-		{
-			min = b;
-			mid = c;
-		}
-		else
-		{
-			min = c;
-			mid = b;
-		}
-	}
-	printf("%d %d %d", max, mid, min);
+	printf("%d %d %d", a, b, c);
 	return 0;
+}
+
+void swap(int* px, int* py)
+{
+	int temp = *px;
+	*px = *py;
+	*py = temp;
 }

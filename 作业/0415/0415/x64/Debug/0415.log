@@ -1,0 +1,5 @@
+﻿  猜数字游戏.c
+C:\Users\15801\Desktop\hello_C\作业\0415\0415\猜数字游戏.c(11,7): warning C4013: “srand”未定义；假设外部返回 int
+C:\Users\15801\Desktop\hello_C\作业\0415\0415\猜数字游戏.c(11,26): warning C4013: “time”未定义；假设外部返回 int
+C:\Users\15801\Desktop\hello_C\作业\0415\0415\猜数字游戏.c(44,16): warning C4013: “rand”未定义；假设外部返回 int
+  0415.vcxproj -> C:\Users\15801\Desktop\hello_C\作业\0415\x64\Debug\0415.exe

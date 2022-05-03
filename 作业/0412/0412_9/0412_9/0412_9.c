@@ -6,24 +6,20 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	int result = 0;
+	int c = 0;
 	scanf("%d %d", &a, &b);
-
-	if (a >= b)
+	//辗转相除法
+	while (a % b)
 	{
-		for (result = b; a % result != 0 || b % result != 0; result--)
+		c = a % b;
+		if (c == 1)
 		{
-			;
+			printf("两数互质");
+			break;
 		}
-		printf("%d", result);
+		a = b;
+		b = c;
 	}
-	else
-	{
-		for (result = a; a % result != 0 || b % result != 0; result--)
-		{
-			;
-		}
-		printf("%d", result);
-	}
+	printf("%d", b);
 	return 0;
 }
