@@ -1,0 +1,5 @@
+﻿  game.c
+  main.c
+C:\Users\15801\Desktop\hello_C\0505_扫雷\0505_扫雷\main.c(3,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  正在生成代码...
+  0505_扫雷.vcxproj -> C:\Users\15801\Desktop\hello_C\0505_扫雷\x64\Debug\0505_扫雷.exe
