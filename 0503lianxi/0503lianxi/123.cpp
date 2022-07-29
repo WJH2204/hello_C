@@ -192,6 +192,8 @@
 * 1111 1111 1111 1111 1111 1111 0111 1110
 *                               0111 1110 //arr[129] 126
 
+#incl
+
 
 
 
@@ -226,10 +228,16 @@
 
 */
 
-#include <stdio.h>
+#include <iostream>
+
 int main()
 {
-    int a = 0x1234;
+    int i = 0, mod;
+    for (i = 0; i < 11; i++)
+    {
+        mod = i % 5;
+        cout << "Mod[" << i << ", 5] =" << mod << endl;
+    }
     return 0;
 }
 

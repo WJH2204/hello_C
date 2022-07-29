@@ -1,0 +1,5 @@
+﻿  找单身狗.c
+  模拟实现atoi.c
+C:\Users\15801\Desktop\hello_C\作业\0713\0713\模拟实现atoi.c(38,9): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  正在生成代码...
+  0713.vcxproj -> C:\Users\15801\Desktop\hello_C\作业\0713\x64\Debug\0713.exe

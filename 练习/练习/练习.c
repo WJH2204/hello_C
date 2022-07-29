@@ -140,15 +140,15 @@
 //    return 0;
 //}
 
-#include <stdio.h>
-#include <math.h>
-int main()
-{
-    float weight = 0.0, height = 0.0;
-    scanf("%f %f", &weight, &height);
-    float s = pow(height / 100, 2);
-    printf("%f", s);
-
-    printf("%0.2f", weight / pow(height/100, 2));
-    return 0;
-}
+//#include <stdio.h>
+//#include <math.h>
+//int main()
+//{
+//    float weight = 0.0, height = 0.0;
+//    scanf("%f %f", &weight, &height);
+//    float s = pow(height / 100, 2);
+//    printf("%f", s);
+//
+//    printf("%0.2f", weight / pow(height/100, 2));
+//    return 0;
+//}

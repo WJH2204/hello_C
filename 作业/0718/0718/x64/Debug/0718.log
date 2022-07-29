@@ -1,0 +1,4 @@
+﻿  源.c
+C:\Users\15801\Desktop\hello_C\作业\0718\0718\源.c(33,28): error C2143: 语法错误: 缺少“)”(在“类型”的前面)
+C:\Users\15801\Desktop\hello_C\作业\0718\0718\源.c(33,15): error C2198: “dichotomy”: 用于调用的参数太少
+C:\Users\15801\Desktop\hello_C\作业\0718\0718\源.c(33,48): error C2059: 语法错误:“)”

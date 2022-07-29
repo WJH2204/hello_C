@@ -1,2 +1,3 @@
 ﻿  123.cpp
-  0503lianxi.vcxproj -> C:\Users\15801\Desktop\hello_C\0503lianxi\x64\Debug\0503lianxi.exe
+C:\Users\15801\Desktop\hello_C\0503lianxi\0503lianxi\123.cpp(238,9): error C2065: “cout”: 未声明的标识符
+C:\Users\15801\Desktop\hello_C\0503lianxi\0503lianxi\123.cpp(238,51): error C2065: “endl”: 未声明的标识符
