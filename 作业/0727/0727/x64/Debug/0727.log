@@ -1,0 +1,7 @@
+﻿  test.c
+  增删查改.c
+C:\Users\15801\Desktop\hello_C\作业\0727\0727\增删查改.c(36,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\15801\Desktop\hello_C\作业\0727\0727\增删查改.c(60,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\15801\Desktop\hello_C\作业\0727\0727\增删查改.c(98,11): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  0727.vcxproj -> C:\Users\15801\Desktop\hello_C\作业\0727\x64\Debug\0727.exe

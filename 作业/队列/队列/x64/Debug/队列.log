@@ -1,0 +1,5 @@
+﻿  queue.c
+C:\Users\15801\Desktop\hello_C\作业\队列\队列\queue.c(51,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  test.c
+  正在生成代码...
+  队列.vcxproj -> C:\Users\15801\Desktop\hello_C\作业\队列\x64\Debug\队列.exe

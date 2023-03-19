@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\15801\Desktop\hello_C\作业\Project2\Project2\源.cpp(18,10): error C2248: “myclass::myclass”: 无法访问 private 成员(在“myclass”类中声明)
+C:\Users\15801\Desktop\hello_C\作业\Project2\Project2\源.cpp(10,2): message : 参见“myclass::myclass”的声明
+C:\Users\15801\Desktop\hello_C\作业\Project2\Project2\源.cpp(7,7): message : 参见“myclass”的声明
